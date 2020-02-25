@@ -3,7 +3,7 @@
 @media screen and (max-width: 419px ) {
 
           * {
-            font-size: 50px;
+            font-size: 40px;
             max-width: 419px;
           }
 
@@ -30,6 +30,24 @@
           .row {
             width: 100%;
           }
+
+          #lezioni .row > .left, #lezioni .row > .right {
+            margin-bottom: 20px;
+            border-bottom: 1px solid black;
+            padding-bottom: 30px;
+          }
+
+            #steps .row > .left, #steps .row > .central, #steps .row > .right {
+              margin-bottom: 20px;
+              border-bottom: 1px solid black;
+              padding-bottom: 30px;
+            }
+
+            #why .row > .third {
+                margin-bottom: 40px;
+                border-bottom: 3px solid grey;
+                padding-bottom: 30px;
+            }
 
 
 
