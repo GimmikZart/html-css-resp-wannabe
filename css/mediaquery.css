@@ -3,7 +3,7 @@
 @media screen and (max-width: 419px ) {
 
           * {
-            font-size: 40px;
+            font-size: 20px;
             max-width: 419px;
           }
 
@@ -20,11 +20,11 @@
           }
 
           h1 {
-            font-size: 80px;
+            font-size: 30px;
           }
 
           h3{
-            font-size: 65px;
+            font-size: 25px;
           }
 
           .row {
@@ -48,6 +48,17 @@
                 border-bottom: 3px solid grey;
                 padding-bottom: 30px;
             }
+
+            img {
+              width: 50%;
+              height: 50%;
+              text-align: center;
+            }
+
+            #why .row img {
+              padding: 0px;
+          }
+
 
 
 
